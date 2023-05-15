@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Federico G. Gutierrez — Proyecto Final Lumetrio</title>
+    <link rel="icon" href="./img/favicon.png">
+    <link rel="mask-icon" href="./img/favicon.svg" color="#4d7be6">
+    <link rel="apple-touch-icon" href="./img/favicon.png">
+    <meta name="theme-color" content="#1c1c1c">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+    <div id="spinner" aria-hidden="true"><ion-icon name="code-slash-outline"></ion-icon></div>
+    
+    <header class="main-header" aria-label="Encabezado">
+        <nav class="main-nav" aria-label="Menú principal">
+            <button class="open-menu" id="open-menu" aria-label="Abrir menú"><ion-icon name="menu-outline"></ion-icon></button>
+            <ul>
+                <button class="close-menu" id="close-menu" aria-label="Cerrar menú"><ion-icon name="close-outline"></ion-icon></button>
+                <li><a href="#about-me" aria-label="Sobre mí">Sobre mí</a></li>
+                <li><a href="#portfolio" aria-label="Portfolio">Capacitaciones</a></li>
+                <li><a href="#career" aria-label="Experiencia Laboral">Experiencia Laboral</a></li>
+                <li><a href="#contact" aria-label="Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="main-buttons">
+            <img src="img/favicon.png" height="40px">
+        </div>
+    </header>
+    <main aria-label="Contenido principal">
+        <section aria-label="Introducción" id="hero" class="hero">
+            <div class="container">
+                <div class="hero-inner">
+                    <div class="hero-inner-content">
+                        <div class="rellax-not-centered hero-image-container" data-rellax-speed="4" data-rellax-xs-speed="0" data-rellax-mobile-speed="1" data-rellax-tablet-speed="1">
+                            <div class="hero-image">
+                                <img src="./img/fede-foto.png" alt="Soy Fede 👋">
+                            </div>
+                        </div>
+                        <div class="hero-main rellax-not-centered" data-rellax-speed="-2">
+                            <h1 class="main-title">Federico G. Gutierrez</h1>
+                            <p class="hero-title">Soy Fede <span aria-hidden="true" class="wave">👋</span></p>
+                            <p class="hero-subtitle">Profesor de Matemática</p>
+                            <p class="paragraph">
+                                Nacido en Argentina y en busca de nuevos desafíos.
+                            </p>
+                            <p class="paragraph">
+                                Actualmente trabajo de profesor y me encuentro estudiando la Licenciatura en Matematica en la Universidad Siglo 21.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rellax-not-centered scroll-icon-container" data-rellax-speed="3">
+                <a class="mouse-scroll-icon visible" id="scroll-down" href="#about-me" aria-hidden="true">
+                    <i class="bi bi-mouse"></i>
+                </a>
+            </div>
+        </section>
+        <section aria-labelledby="about-me-title" id="about-me" class="section about-me">
+            <div class="container">
+                <h2 id="about-me-title" class="section-title type-mono rellax" data-rellax-speed="1" aria-label="Sobre mí">Sobre mí</h2>
+                <p class="paragraph">De 2013 a 2023 trabajé como empleado administrativo en <strong>Municipio de Lomas de Zamora</strong> en Argentina. Su Web Express, una de las agencias digitales líderes en Argentina. En 2018 comence a ejercer mi profesión docente en <strong>Colegio Thomas Jefferson</strong></p>
+                <p class="paragraph">En 2022 me surgio el interes por la Programación Web y comencé a tomar clases en distintas agencias.</p>
+                <p class="paragraph">Mi próximo objetivo es trasladarme a europa en búsqueda de desafíos, oportunidades y nuevos proyectos.</p>
+                <p class="paragraph paragraph-mini">Ver información completa en mi <a href="https://www.linkedin.com/in/federico-gabriel-gutierrez-199784154/" target="_blank" aria-label="perfil de LinkedIn (abre en una nueva pestaña)">perfil de LinkedIn</a>.</p>
+
+                <ul class="skills-list" aria-labelledby="programming-languages-list-title">
+                    <h2 id="programming-languages-list-title" class="skills-titles">Skills</h2>
+                    <li class="skill">HTML 5</li>
+                    <li class="skill">CSS 3</li>
+                    <li class="skill">JavaScript</li>
+                    <li class="skill">React JS</li>
+                    <li class="skill">Bootstrap</li>
+                    <li class="skill">Diseño responsivo</li>
+                </ul>
+
+                <ul class="skills-list" aria-labelledby="more-skills-list-title">
+                    <h2 id="more-skills-list-title" class="skills-titles">Software</h2>
+                    <li class="skill">Visual Studio Code</li>
+                    <li class="skill">Adobe Premiere</li>
+                </ul>
+
+                <ul class="skills-list" aria-labelledby="languages-list-title">
+                    <h2 id="languages-list-title" class="skills-titles">Idiomas</h2>
+                    <li class="skill">Español (Nativo)</li>
+                    <li class="skill">Inglés (Básico)</li>
+                </ul>
+
+                <div class="section-footer" aria-hidden="true">
+                    <p>Sobre mí</p>
+                </div>
+            </div>
+        </section>
+
+        <section aria-label="Logros" id="achievements" class="section achievements">
+            <div class="container">
+                    <div class="achievement rellax" data-rellax-speed="3">
+                        <div class="achievement-icon"><ion-icon name="code-working-outline"></ion-icon></div>
+                        <p class="achievement-number">+6</p>
+                        <p class="achievement-text">Años de experiencia como docente</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section aria-labelledby="portfolio-title" id="portfolio" class="section portfolio">
+            <div class="container">
+                <h2 id="portfolio-title" class="section-title type-mono rellax" data-rellax-speed="1" aria-label="Portfolio">Capacitaciones</h2>
+                <p class="paragraph">Capacitaciones que realice referido a Programación Web</p>
+                <div class="projects-list">
+                    <article class="project" id="project-monotienda" aria-labelledby="title-monotienda">
+                        <div class="project-icons">
+                            <ion-icon aria-hidden="true" name="folder-outline"></ion-icon>
+                            <a target="_blank" href="https://lumetrio.com/certificado/2086142bcefd37c4017a8" aria-label="Ver certificado (abre en una nueva pestaña)" data-tooltip="Ver certificado"><ion-icon name="link-outline"></ion-icon></a>
+                        </div>
+                        <h3 id="title-monotienda" class="project-title">Introducción a la Programación</h3>
+                        <p>Lumetrio</p>
+                        <ul class="skills-list project-skills">
+                            <li class="skill">Variables</li>
+                            <li class="skill">Tipo de datos</li>
+                            <li class="skill">Condicionales</li>
+                            <li class="skill">Iteradores</li>
+                            <li class="skill">Arreglos</li>
+                            <li class="skill">Arreglos asociativos</li>
+                            <li class="skill">Funciones</li>
+                        </ul>
+                    </article>
+                    <article class="project" id="project-monotienda" aria-labelledby="title-monotienda">
+                        <div class="project-icons">
+                            <ion-icon aria-hidden="true" name="folder-outline"></ion-icon>
+                            <a target="_blank" href="https://demo-egg-certificates.s3.amazonaws.com/FedericoGabrielGutierrez/programaci%C3%B3ndesdecerolatam/thumbnail_f3842983de1a7d203664e91f8cdc8530d75575d9ea2ae4d3c2e225375682d697.jpeg" aria-label="Ver certificado (abre en una nueva pestaña)" data-tooltip="Ver certificado"><ion-icon name="link-outline"></ion-icon></a>
+                        </div>
+                        <h3 id="title-monotienda" class="project-title">Programación desde cero</h3>
+                        <p>Egg Cooperation</p>
+                        <ul class="skills-list project-skills">
+                            <li class="skill">Fundamentos de la programación</li>
+                            <li class="skill">Lógica algorítmica</li>
+                            <li class="skill">Pensamiento lógico matemático</li>
+                        </ul>
+                    </article>
+                    <article class="project" id="project-carpishop" aria-labelledby="title-carpishop">
+                        <div class="project-icons">
+                            <ion-icon aria-hidden="true" name="folder-outline"></ion-icon>
+                           
+                            <a target="_blank" href="https://github.com/fedco-gtz/fedco-gtz.github.io/blob/main/CV.html" aria-label="Ver repositorio en GitHub (abre en una nueva pestaña)" data-tooltip="Ver repositorio"><ion-icon name="logo-github"></ion-icon>
+                            </a>
+                            <a target="_blank" href="https://api.profesional.ticmas.io/v1/certificates-download/e3cf631d-6401-4faa-bab9-5ee7aa7f409f---pdf" aria-label="Ver certificado (abre en una nueva pestaña)" data-tooltip="Ver certificado"><ion-icon name="link-outline"></ion-icon></a>
+                            </a>
+                        </div>
+                        <h3 id="title-carpishop" class="project-title">Primeros pasos del desarrollo frontend</h3>
+                        <p>Ticmas Academy</p>
+                        <ul class="skills-list project-skills">
+                            <li class="skill">HTML</li>
+                            <li class="skill">CSS</li>
+                            <li class="skill">JavaScript</li>
+                        </ul>
+                    </article>
+
+                    <article class="project" id="project-carpishop" aria-labelledby="title-carpishop">
+                        <div class="project-icons">
+                            <ion-icon aria-hidden="true" name="folder-outline"></ion-icon>
+                           
+                            <a target="_blank" href="" aria-label="Ver repositorio en GitHub (abre en una nueva pestaña)" data-tooltip="Ver repositorio"><ion-icon name="logo-github"></ion-icon>
+                            </a>
+                            <a target="_blank" href="" aria-label="Ver certificado (abre en una nueva pestaña)" data-tooltip="Ver certificado"><ion-icon name="link-outline"></ion-icon></a>
+                            </a>
+                        </div>
+                        <h3 id="title-carpishop" class="project-title">Full Stack Python</h3>
+                        <p>Codo a Codo (Agencia de Aprendizaje a lo largo de la vida) - EN CURSO</p>
+                        <ul class="skills-list project-skills">
+                            <li class="skill">HTML</li>
+                            <li class="skill">CSS</li>
+                            <li class="skill">Bootstrap</li>
+                            <li class="skill">GIT</li>
+                            <li class="skill">Scrum</li>
+                            <li class="skill">JavaScript</li>
+                            <li class="skill">VUE</li>
+                            <li class="skill">Python</li>
+                            <li class="skill">Django</li>
+                        </ul>
+                    </article>
+                    <article class="project" id="project-carpishop" aria-labelledby="title-carpishop">
+                        <div class="project-icons">
+                            <ion-icon aria-hidden="true" name="folder-outline"></ion-icon>
+                           
+                            <a target="_blank" href="" aria-label="Ver repositorio en GitHub (abre en una nueva pestaña)" data-tooltip="Ver repositorio"><ion-icon name="logo-github"></ion-icon>
+                            </a>
+                            <a target="_blank" href="" aria-label="Ver certificado (abre en una nueva pestaña)" data-tooltip="Ver certificado"><ion-icon name="link-outline"></ion-icon></a>
+                            </a>
+                        </div>
+                        <h3 id="title-carpishop" class="project-title">Programación Web desde cero</h3>
+                        <p>Egg Cooperation - EN CURSO</p>
+                        <ul class="skills-list project-skills">
+                            <li class="skill">HTML</li>
+                            <li class="skill">CSS</li>
+                            <li class="skill">JavaScript</li>
+                            <li class="skill">GitHub</li>
+                        </ul>
+                    </article>
+                    <article class="project" id="project-carpishop" aria-labelledby="title-carpishop">
+                        <div class="project-icons">
+                            <ion-icon aria-hidden="true" name="folder-outline"></ion-icon>
+                           
+                            <a target="_blank" href="" aria-label="Ver repositorio en GitHub (abre en una nueva pestaña)" data-tooltip="Ver repositorio"><ion-icon name="logo-github"></ion-icon>
+                            </a>
+                            <a target="_blank" href="" aria-label="Ver certificado (abre en una nueva pestaña)" data-tooltip="Ver certificado"><ion-icon name="link-outline"></ion-icon></a>
+                            </a>
+                        </div>
+                        <h3 id="title-carpishop" class="project-title">Full Stack Python</h3>
+                        <p>Codo a Codo (Agencia de Aprendizaje a lo largo de la vida) - EN CURSO</p>
+                        <ul class="skills-list project-skills">
+                            <li class="skill">HTML</li>
+                            <li class="skill">CSS</li>
+                            <li class="skill">Bootstrap</li>
+                            <li class="skill">GIT</li>
+                            <li class="skill">Scrum</li>
+                            <li class="skill">JavaScript</li>
+                            <li class="skill">VUE</li>
+                            <li class="skill">Python</li>
+                            <li class="skill">Django</li>
+                        </ul>
+                    </article>
+                    <article class="project" id="project-carpishop" aria-labelledby="title-carpishop">
+                        <div class="project-icons">
+                            <ion-icon aria-hidden="true" name="folder-outline"></ion-icon>
+                           
+                            <a target="_blank" href="" aria-label="Ver repositorio en GitHub (abre en una nueva pestaña)" data-tooltip="Ver repositorio"><ion-icon name="logo-github"></ion-icon>
+                            </a>
+                            <a target="_blank" href="" aria-label="Ver certificado (abre en una nueva pestaña)" data-tooltip="Ver certificado"><ion-icon name="link-outline"></ion-icon></a>
+                            </a>
+                        </div>
+                        <h3 id="title-carpishop" class="project-title">Programación Frontend</h3>
+                        <p>Lumetrio - EN CURSO</p>
+                        <ul class="skills-list project-skills">
+                            <li class="skill">HTML</li>
+                            <li class="skill">CSS</li>
+                            <li class="skill">Bootstrap</li>
+                            <li class="skill">React</li>
+                        </ul>
+                    </article>
+                    <article class="project" id="project-carpishop" aria-labelledby="title-carpishop">
+                        <div class="project-icons">
+                            <ion-icon aria-hidden="true" name="folder-outline"></ion-icon>
+                            <a target="_blank" href="" aria-label="Ver certificado (abre en una nueva pestaña)" data-tooltip="Ver certificado"><ion-icon name="link-outline"></ion-icon></a>
+                            </a>
+                        </div>
+                        <h3 id="title-carpishop" class="project-title">Python desde cero</h3>
+                        <p>Ademika - EN CURSO</p>
+                        <ul class="skills-list project-skills">
+                            <li class="skill">Lógica algorítmica</li>
+                            <li class="skill">Pensamiento lógico matemático</li>
+                        </ul>
+                    </article>
+                    <article class="project" id="project-carpishop" aria-labelledby="title-carpishop">
+                        <div class="project-icons">
+                            <ion-icon aria-hidden="true" name="folder-outline"></ion-icon>
+                           
+                            <a target="_blank" href="" aria-label="Ver repositorio en GitHub (abre en una nueva pestaña)" data-tooltip="Ver repositorio"><ion-icon name="logo-github"></ion-icon>
+                            </a>
+                            <a target="_blank" href="" aria-label="Ver certificado (abre en una nueva pestaña)" data-tooltip="Ver certificado"><ion-icon name="link-outline"></ion-icon></a>
+                            </a>
+                        </div>
+                        <h3 id="title-carpishop" class="project-title">Programación Frontend</h3>
+                        <p>Lumetrio - EN CURSO</p>
+                        <ul class="skills-list project-skills">
+                            <li class="skill">HTML</li>
+                            <li class="skill">CSS</li>
+                            <li class="skill">Bootstrap</li>
+                            <li class="skill">React</li>
+                        </ul>
+                    </article>
+                    <article class="project" id="project-carpishop" aria-labelledby="title-carpishop">
+                        <div class="project-icons">
+                            <ion-icon aria-hidden="true" name="folder-outline"></ion-icon>
+                            <a target="_blank" href="" aria-label="Ver certificado (abre en una nueva pestaña)" data-tooltip="Ver certificado"><ion-icon name="link-outline"></ion-icon></a>
+                            </a>
+                        </div>
+                        <h3 id="title-carpishop" class="project-title">Desarrollador con conocimientos complementarios en el proceso de datos con Python</h3>
+                        <p>Ticmas Academy - EN CURSO</p>
+                        <ul class="skills-list project-skills">
+                            <li class="skill">Lógica algorítmica</li>
+                            <li class="skill">Pensamiento lógico matemático</li>
+                        </ul>
+                    </article>
+
+                    <article class="project" id="project-carpishop" aria-labelledby="title-carpishop">
+                        <div class="project-icons">
+                            <ion-icon aria-hidden="true" name="folder-outline"></ion-icon>
+                            <a target="_blank" href="" aria-label="Ver certificado (abre en una nueva pestaña)" data-tooltip="Ver certificado"><ion-icon name="link-outline"></ion-icon></a>
+                            </a>
+                        </div>
+                        <h3 id="title-carpishop" class="project-title">Curso introductorio a Data Science</h3>
+                        <p>HENRY - EN CURSO</p>
+                        <ul class="skills-list project-skills">
+                            <li class="skill">Python</li>
+                            <li class="skill">Matemática</li>
+                        </ul>
+                    </article>
+
+                </div>
+
+                <div class="section-footer" aria-hidden="true">
+                    <p>Capacitaciones</p>
+                </div>
+            </div>
+
+        </section>
+        <section aria-labelledby="career-title" id="career" class="section career">
+            <div class="container">
+                <h2 id="career-title" class="section-title type-mono rellax" data-rellax-speed="1" aria-label="Experiencia">Experiencia Laboral</h2>
+
+                <div class="jobs-list" aria-label="Trabajos">
+
+                    <article class="job" aria-labelledby="coderhouse-title">
+                        <div class="job-company">
+                            <h3 class="company-title" id="coderhouse-title">Colegio Thomas Jefferson</h3>
+                            <a
+                                target="_blank"
+                                href="https://www.instagram.com/colegiothomasjeffersonctj/"
+                                class="company-link"
+                                data-tooltip="Ver sitio web"
+                                aria-label="Ver sitio web (abre en una nueva pestaña)"
+                            >
+                                <ion-icon name="link-outline"></ion-icon>
+                            </a>
+                        </div>
+                        <p class="company-type">Institución Educativa</p>
+                        <ul class="roles" aria-label="Roles">
+                            <li class="role">
+                                <p class="title">Profesor de Matemática y Física</p>
+                                <p class="date">Jun. 2019 - Actualidad</p>
+                            </li>
+                            <li class="role">
+                                <p class="title">Preceptor</p>
+                                <p class="date">Abr. 2023 - Actualidad</p>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article class="job" aria-labelledby="coderhouse-title">
+                        <div class="job-company">
+                            <h3 class="company-title" id="coderhouse-title">Dirección General de Cultura y Educación de la Provincia de Buenos Aires</h3>
+                            <a
+                                target="_blank"
+                                href="https://abc.gob.ar/"
+                                class="company-link"
+                                data-tooltip="Ver sitio web"
+                                aria-label="Ver sitio web (abre en una nueva pestaña)"
+                            >
+                                <ion-icon name="link-outline"></ion-icon>
+                            </a>
+                        </div>
+                        <p class="company-type">Educación</p>
+                        <ul class="roles" aria-label="Roles">
+                            <li class="role">
+                                <p class="title">Profesor de Matemática en C.E.N.S Nro 467 (L. de Zamora)</p>
+                                <p class="date">Feb. 2023 - Actualidad</p>
+                            </li>
+                            <li class="role">
+                                <p class="title">Profesor de Matemática en E.E.S. Nro 22 (Alte. Brown)</p>
+                                <p class="date">Mar. 2019 - Abr.2019</p>
+                            </li>
+                            <li class="role">
+                                <p class="title">Profesor de Matemática en E.E.S.T Nro 3 (Alte. Brown)</p>
+                                <p class="date">Mar. 2019 - Mar.2020</p>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article class="job" aria-labelledby="coderhouse-title">
+                        <div class="job-company">
+                            <h3 class="company-title" id="coderhouse-title">Municipio de Lomas de Zamora</h3>
+                            <a
+                                target="_blank"
+                                href="https://www.lomasdezamora.gov.ar/Default.aspx"
+                                class="company-link"
+                                data-tooltip="Ver sitio web"
+                                aria-label="Ver sitio web (abre en una nueva pestaña)"
+                            >
+                                <ion-icon name="link-outline"></ion-icon>
+                            </a>
+                        </div>
+                        <p class="company-type">Gobierno Municipal</p>
+                        <ul class="roles" aria-label="Roles">
+                            <li class="role">
+                                <p class="title">Capacitador del programa municipal de Educación Vial en escuelas</p>
+                                <p class="date">Mar. 2017 - Feb.2023</p>
+                            </li>
+                            <li class="role">
+                                <p class="title">Resolución de expedientes proviniciales y municiaples</p>
+                                <p class="date">Jul. 2015 - Feb.2023</p>
+                            </li>
+                            <li class="role">
+                                <p class="title">Atención al Público</p>
+                                <p class="date">Ene. 2013 - Feb.2023</p>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article class="job" aria-labelledby="coderhouse-title">
+                        <div class="job-company">
+                            <h3 class="company-title" id="coderhouse-title">Colegio Modelo Marmol</h3>
+                            <a
+                                target="_blank"
+                                href="https://colegiomodelomarmol.com.ar/"
+                                class="company-link"
+                                data-tooltip="Ver sitio web"
+                                aria-label="Ver sitio web (abre en una nueva pestaña)"
+                            >
+                                <ion-icon name="link-outline"></ion-icon>
+                            </a>
+                        </div>
+                        <p class="company-type">Institución Educativa</p>
+                        <ul class="roles" aria-label="Roles">
+                            <li class="role">
+                                <p class="title">Profesor de Matemática y Física</p>
+                                <p class="date">Oct. 2018 - Sep. 2018</p>
+                            </li>
+                        </ul>
+                    </article>              
+                </div>
+
+                <div class="section-footer" aria-hidden="true">
+                    <p>Experiencia Laboral</p>
+                </div>
+            </div>
+        </section>
+
+        <section aria-labelledby="contact-title" id="contact" class="section contact">
+            <div class="container">
+                <h2 id="contact-title" class="section-title type-mono rellax" data-rellax-speed="1" aria-label="Contacto">Contacto</h2>
+
+                <p class="paragraph">Mi bandeja de entrada está siempre abierta para consultas, proyectos o si simplemente querés pasar a saludar. ¡Te responderé lo antes posible! <span aria-hidden="true" class="wave">👋</span></p>
+
+                <p class="paragraph">Podés escribirme en <a href="mailto:gutierrezfedericog@gmail.com">gutierrezfedericog@gmail.com</a>.</p>
+
+                <div class="section-footer" aria-hidden="true">
+                    <p>Contacto</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer" aria-label="Pie de página">
+        <div class="container">
+            <div class="main-footer-inner">
+                <a target="_blank" href="https://twitter.com/Fede__Gutierrez" data-tooltip="Twitter" aria-label="Twitter (abre en una nueva pestaña)">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+                <a target="_blank" href="https://www.facebook.com/federico.g.gutierrez2" data-tooltip="Facebook" aria-label="Facebook (abre en una nueva pestaña)">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a target="_blank" href="https://www.instagram.com/gtz.fede/" data-tooltip="Instagram" aria-label="Instagram (abre en una nueva pestaña)">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/in/federico-gabriel-gutierrez-199784154/" data-tooltip="LinkedIn" aria-label="LinkedIn (abre en una nueva pestaña)">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="go-top" id="go-top" data-tooltip="Ir arriba" data-tooltip-left aria-hidden="true"><ion-icon name="arrow-up-outline"></ion-icon></a> 
+
+    <!-- IONICONS -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- RELLAX JS-->
+    <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+    <script>
+        var rellax = new Rellax('.rellax', { center: true });
+        var rellaxNotCentered = new Rellax('.rellax-not-centered');
+    </script>
+
+    <!-- SWIPER JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
+
+    <!-- OWN SCRIPTS -->
+    <script src="./js/loader.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+</html>
