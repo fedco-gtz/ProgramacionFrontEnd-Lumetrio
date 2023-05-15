@@ -189,40 +189,6 @@ h1, h2, h3, h4, h5, h6 {
         right: 100%;
     }
 }
-
-/* LOADER */
-
-#spinner {
-    position: fixed;
-    inset: 0;
-    background-color: var(--clr-bg);
-    color: var(--clr-text);
-    z-index: 99999999;
-    font-size: 3rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: .4s;
-}
-
-#spinner ion-icon {
-    pointer-events: none;
-    animation: spin 1s ease-in-out both infinite;
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
-}
-
-@keyframes spin {
-    0% {
-        transform: rotate(0);
-    }
-    50% {
-        transform: rotate(360deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
 /* HEADER */
 
 .main-header {
@@ -433,7 +399,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero-image {
     background-color: var(--clr-details);
-    background-image: url("../img/noise.png");
     border-radius: 1rem;
     transform: scale(.75) translateY(-1rem);
     width: 100%;
