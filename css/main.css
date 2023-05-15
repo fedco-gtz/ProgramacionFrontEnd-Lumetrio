@@ -400,13 +400,13 @@ h1, h2, h3, h4, h5, h6 {
 .hero-image {
     background-color: var(--clr-details);
     border-radius: 1rem;
-    transform: scale(.75) translateY(-1rem);
+    transform: scale(.75) translateY(-1.2rem);
     width: 100%;
 }
 
 .hero-image img {
     border-radius: 1rem;
-    transform: scale(1.2);
+    transform: scale(1.222);
     max-width: 100%;
 }
 
